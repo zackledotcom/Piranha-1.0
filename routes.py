@@ -30,3 +30,4 @@ def auth():
 credentials'}), 400
     return jsonify({'status': 'success', 'message': 'Authenticated 
 (simulated)'})
+
