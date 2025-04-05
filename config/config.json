@@ -1,0 +1,12 @@
+{
+  "reddit": {},
+  "subreddits": [],
+  "bot_actions": {
+    "upvote": true,
+    "comment": true,
+    "response_message": "Hey! I saw you on the cosigner group."
+  },
+  "ui": {
+    "do_not_disturb": []
+  }
+}
