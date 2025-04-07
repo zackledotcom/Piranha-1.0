@@ -1,20 +1,345 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Reddit Bot</title>
-  <link rel="stylesheet" href="/static/css/main.css">
-  <script src="/static/main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Bot Dashboard</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+    <!-- Load Socket.IO before other scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
-<body>
-  <h1>Reddit Bot Dashboard</h1>
-  <div id="bot-list"></div>
-  <form id="bot-form">
-    <input name="username" placeholder="Username"><br>
-    <input name="password" placeholder="Password"><br>
-    <input name="client_id" placeholder="Client ID"><br>
-    <input name="client_secret" placeholder="Client Secret"><br>
-    <button type="submit">Authenticate Bot</button>
-  </form>
+<body class="bg-[#030303] text-[#D7DADC] min-h-screen">
+    <!-- Header -->
+    <header class="h-12 border-b border-[#343536] fixed w-full top-0 z-50 bg-[#1A1A1B]">
+        <nav class="container h-full flex items-center justify-between px-4">
+            <div class="flex items-center space-x-2">
+                <i class="fa-brands fa-reddit text-[#FF4500] text-[22px]"></i>
+                <span class="text-[15px] font-semibold tracking-tight">Reddit Bot Dashboard</span>
+                <span class="bot-status ml-4 text-xs text-[#818384]">
+                    <i class="fa-solid fa-circle text-gray-500 mr-2"></i>Inactive
+                </span>
+            </div>
+            <div class="flex items-center space-x-6 text-[12px] text-[#818384]">
+                <div class="flex items-center space-x-1.5 hover:text-[#D7DADC] cursor-pointer">
+                    <i class="fa-regular fa-message"></i>
+                    <span id="messages-count">0</span>
+                </div>
+                <div class="flex items-center space-x-1.5 hover:text-[#D7DADC] cursor-pointer">
+                    <i class="fa-regular fa-compass"></i>
+                    <span id="subreddits-count">0</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Dashboard -->
+    <main class="pt-14 pb-8">
+        <div class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-12 gap-6">
+                <!-- Left Column: Configuration (25%) -->
+                <div class="col-span-3">
+                    <div class="space-y-6">
+                        <!-- Bot Configuration -->
+                        <div class="space-y-6">
+                            <div class="bg-[#272729] rounded-lg p-6 border border-[#343536]">
+                                <h2 class="text-xl font-semibold mb-4">Bot Configuration</h2>
+                                <div id="botList" class="space-y-4"></div>
+                                <button id="addBotBtn" class="btn btn-primary mt-4">
+                                    <i class="fas fa-plus mr-2"></i>Add Bot
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Target Subreddit -->
+                        <div class="space-y-6">
+                            <div class="bg-[#272729] rounded-lg p-6 border border-[#343536]">
+                                <h2 class="text-xl font-semibold mb-4">Target Subreddit</h2>
+                                <div class="space-y-4">
+                                    <div class="input-group">
+                                        <input type="text" id="subredditInput" class="bg-[#1A1A1B] border border-[#343536] rounded px-4 py-2 text-white placeholder-[#818384] focus:outline-none focus:border-[#FF4500]" placeholder="Enter subreddit name (e.g., r/AskReddit)">
+                                        <button id="verifySubreddit" class="btn btn-primary">
+                                            <i class="fas fa-check mr-2"></i>Verify
+                                        </button>
+                                    </div>
+                                    <div id="subredditError" class="text-red-500 text-sm hidden"></div>
+                                </div>
+                            </div>
+
+                            <div id="subredditStatus" class="hidden">
+                                <div class="bg-[#272729] rounded-lg p-6 border border-[#343536]">
+                                    <div class="flex items-center justify-between mb-4">
+                                        <h3 class="text-lg font-semibold text-white">Subreddit Status</h3>
+                                        <span class="text-green-500"><i class="fas fa-check-circle mr-2"></i>Verified</span>
+                                    </div>
+                                    <div id="subredditInsights" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                        <div class="bg-[#1A1A1B] rounded p-4">
+                                            <div class="text-[#818384] text-sm mb-1">Subscribers</div>
+                                            <div class="text-white text-xl font-semibold subscribers-count">0</div>
+                                        </div>
+                                        <div class="bg-[#1A1A1B] rounded p-4">
+                                            <div class="text-[#818384] text-sm mb-1">Active Users</div>
+                                            <div class="text-white text-xl font-semibold active-users-count">0</div>
+                                        </div>
+                                        <div class="bg-[#1A1A1B] rounded p-4">
+                                            <div class="text-[#818384] text-sm mb-1">Post Frequency</div>
+                                            <div class="text-white text-xl font-semibold post-frequency">0</div>
+                                        </div>
+                                        <div class="bg-[#1A1A1B] rounded p-4">
+                                            <div class="text-[#818384] text-sm mb-1">Engagement Rate</div>
+                                            <div class="text-white text-xl font-semibold engagement-rate">0%</div>
+                                        </div>
+                                        <div class="bg-[#1A1A1B] rounded p-4 md:col-span-2 lg:col-span-3">
+                                            <div class="text-[#818384] text-sm mb-1">Description</div>
+                                            <div class="text-white subreddit-description"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Do Not Contact List -->
+                        <div class="space-y-6">
+                            <div class="bg-[#272729] rounded-lg p-6 border border-[#343536]">
+                                <h2 class="text-xl font-semibold mb-4">Do Not Contact List</h2>
+                                <div class="space-y-4">
+                                    <div class="input-group">
+                                        <input type="text" id="dncInput" class="bg-[#1A1A1B] border border-[#343536] rounded px-4 py-2 text-white placeholder-[#818384] focus:outline-none focus:border-[#FF4500]" placeholder="Enter username">
+                                        <button id="addDncBtn" class="btn btn-primary">
+                                            <i class="fas fa-plus mr-2"></i>Add
+                                        </button>
+                                    </div>
+                                    <div id="dncList" class="space-y-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Middle Column: Message Feed & Progress (50%) -->
+                <div class="col-span-6">
+                    <div class="space-y-6">
+                        <!-- Progress Bar -->
+                        <div class="bg-[#1A1A1B] rounded-lg p-6 border border-[#343536]">
+                            <h2 class="text-xl font-semibold mb-4">Messaging Progress</h2>
+                            <div class="space-y-4">
+                                <div class="space-y-2">
+                                    <div class="flex justify-between text-sm">
+                                        <span>Progress</span>
+                                        <span id="progressText">0%</span>
+                                    </div>
+                                    <div class="h-2 bg-[#272729] rounded-full overflow-hidden">
+                                        <div id="progressBar" class="h-full bg-[#FF4500] transition-all duration-300" style="width: 0%"></div>
+                                    </div>
+                                    <div class="text-xs text-gray-400" id="timeRemaining"></div>
+                                </div>
+
+                                <!-- Start/Stop Controls -->
+                                <div class="flex justify-end space-x-4">
+                                    <button id="startButton" class="btn btn-primary">
+                                        <i class="fas fa-play mr-2"></i>Start Messaging
+                                    </button>
+                                    <button id="stopButton" class="btn btn-secondary" disabled>
+                                        <i class="fas fa-stop mr-2"></i>Stop
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Message Feed -->
+                        <div class="bg-[#1A1A1B] rounded-lg p-6 border border-[#343536]">
+                            <h2 class="text-xl font-semibold mb-4">Message Feed</h2>
+                            <div id="messageFeed" class="space-y-3 max-h-[600px] overflow-y-auto">
+                                <!-- Messages will be added here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Statistics & Logs (25%) -->
+                <div class="col-span-3">
+                    <div class="space-y-6">
+                        <!-- Statistics -->
+                        <div class="bg-[#1A1A1B] rounded-lg p-6 border border-[#343536]">
+                            <h2 class="text-xl font-semibold mb-4">Statistics</h2>
+                            <div class="space-y-4">
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div class="bg-[#272729] rounded p-3">
+                                        <div class="text-sm text-gray-400">Messages Sent</div>
+                                        <div id="messagesCount" class="text-lg font-semibold">0</div>
+                                    </div>
+                                    <div class="bg-[#272729] rounded p-3">
+                                        <div class="text-sm text-gray-400">Success Rate</div>
+                                        <div id="successRate" class="text-lg font-semibold">0%</div>
+                                    </div>
+                                    <div class="bg-[#272729] rounded p-3">
+                                        <div class="text-sm text-gray-400">Active Bots</div>
+                                        <div id="activeBots" class="text-lg font-semibold">0</div>
+                                    </div>
+                                    <div class="bg-[#272729] rounded p-3">
+                                        <div class="text-sm text-gray-400">Error Rate</div>
+                                        <div id="errorRate" class="text-lg font-semibold">0%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Error Log -->
+                        <div class="bg-[#1A1A1B] rounded-lg p-6 border border-[#343536]">
+                            <h2 class="text-xl font-semibold mb-4">Error Log</h2>
+                            <div id="errorLog" class="space-y-2 max-h-[400px] overflow-y-auto">
+                                <!-- Errors will be added here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Templates -->
+    <template id="bot-config-template">
+        <div class="bg-[#1A1A1B] rounded-lg p-4 border border-[#343536]">
+            <div class="flex items-center justify-between mb-4">
+                <h3 class="text-lg font-semibold">Bot Configuration</h3>
+                <button class="remove-bot-btn text-red-500 hover:text-red-400">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form class="space-y-4">
+                <div class="space-y-2">
+                    <label class="text-sm text-gray-400">Username</label>
+                    <input type="text" name="username" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-white" required>
+                </div>
+                <div class="space-y-2">
+                    <label class="text-sm text-gray-400">Password</label>
+                    <input type="password" name="password" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-white" required>
+                </div>
+                <div class="space-y-2">
+                    <label class="text-sm text-gray-400">Client ID</label>
+                    <input type="text" name="client_id" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-white" required>
+                </div>
+                <div class="space-y-2">
+                    <label class="text-sm text-gray-400">Client Secret</label>
+                    <input type="password" name="client_secret" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-white" required>
+                </div>
+                <div class="space-y-2">
+                    <label class="text-sm text-gray-400">Subreddit</label>
+                    <div class="flex space-x-2">
+                        <input type="text" name="subreddit" class="flex-1 bg-[#272729] border border-[#343536] rounded px-3 py-2 text-white" required>
+                        <button type="button" class="check-subreddit-btn btn btn-secondary">
+                            <i class="fas fa-check"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="space-y-2">
+                    <label class="text-sm text-gray-400">Response Style</label>
+                    <select name="response_style" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-white">
+                        <option value="friendly">Friendly</option>
+                        <option value="professional">Professional</option>
+                        <option value="casual">Casual</option>
+                    </select>
+                </div>
+                <div class="space-y-2">
+                    <label class="text-sm text-gray-400">Writing Style</label>
+                    <select name="writing_style" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-white">
+                        <option value="concise">Concise</option>
+                        <option value="detailed">Detailed</option>
+                        <option value="conversational">Conversational</option>
+                    </select>
+                </div>
+                <div class="space-y-2">
+                    <label class="text-sm text-gray-400">Response Length</label>
+                    <select name="response_length" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-white">
+                        <option value="short">Short</option>
+                        <option value="medium">Medium</option>
+                        <option value="long">Long</option>
+                    </select>
+                </div>
+                <div class="space-y-2">
+                    <label class="text-sm text-gray-400">AI Response</label>
+                    <div class="flex items-center space-x-2">
+                        <button type="button" class="toggle-ai-btn relative inline-flex h-6 w-11 items-center rounded-full bg-gray-600">
+                            <span class="toggle-ai-indicator inline-block h-4 w-4 transform rounded-full bg-white transition translate-x-1"></span>
+                        </button>
+                        <span class="text-sm text-gray-400">Enable AI responses</span>
+                    </div>
+                </div>
+                <div class="ai-settings hidden space-y-2">
+                    <div class="space-y-2">
+                        <label class="text-sm text-gray-400">OpenAI API Key</label>
+                        <input type="password" name="openai_api_key" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-white">
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-sm text-gray-400">AI Response Style</label>
+                        <select name="ai_response_style" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-white">
+                            <option value="friendly">Friendly</option>
+                            <option value="professional">Professional</option>
+                            <option value="casual">Casual</option>
+                        </select>
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-sm text-gray-400">AI Response Length</label>
+                        <select name="ai_response_length" class="w-full bg-[#272729] border border-[#343536] rounded px-3 py-2 text-white">
+                            <option value="short">Short</option>
+                            <option value="medium">Medium</option>
+                            <option value="long">Long</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="subreddit-info hidden space-y-2">
+                    <div class="grid grid-cols-2 gap-2">
+                        <div class="bg-[#272729] rounded p-2">
+                            <div class="text-xs text-gray-400">Subscribers</div>
+                            <div class="subreddit-subscribers text-sm font-semibold">0</div>
+                        </div>
+                        <div class="bg-[#272729] rounded p-2">
+                            <div class="text-xs text-gray-400">Sentiment</div>
+                            <div class="subreddit-sentiment text-sm font-semibold">Neutral</div>
+                        </div>
+                        <div class="bg-[#272729] rounded p-2">
+                            <div class="text-xs text-gray-400">Type</div>
+                            <div class="subreddit-type text-sm font-semibold">Discussion</div>
+                        </div>
+                        <div class="bg-[#272729] rounded p-2">
+                            <div class="text-xs text-gray-400">Avg Score</div>
+                            <div class="subreddit-avg-score text-sm font-semibold">0</div>
+                        </div>
+                    </div>
+                    <div class="bg-[#272729] rounded p-2">
+                        <div class="text-xs text-gray-400">Description</div>
+                        <div class="subreddit-description text-sm"></div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary w-full">
+                    <i class="fas fa-save mr-2"></i>Save Configuration
+                </button>
+            </form>
+        </div>
+    </template>
+
+    <template id="dnc-user-template">
+        <div class="dnc-user bg-[#1A1A1B] rounded p-2 flex items-center justify-between">
+            <span class="dnc-username text-white"></span>
+            <button class="remove-dnc btn btn-sm btn-secondary">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </template>
+
+    <template id="error-template">
+        <div class="error-item bg-[#272729] rounded p-2 border border-red-500">
+            <div class="flex items-center justify-between">
+                <span class="timestamp text-xs text-gray-400"></span>
+                <span class="error-type text-xs text-red-500"></span>
+            </div>
+            <div class="error-message text-sm text-white mt-1"></div>
+        </div>
+    </template>
+
+    <!-- Load main.js after all templates -->
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
 </body>
 </html>
