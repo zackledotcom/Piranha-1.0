@@ -1,0 +1,848 @@
+2025-04-01 13:23:18,687 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:23:19,304 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:23:19,305 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:24:06,739 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:27:27,107 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:27:27,262 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:27:27,877 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:27:27,878 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:27:57,388 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:27:57,908 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:27:57,909 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:32:48,125 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:32:48,301 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:32:48,941 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:32:48,942 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:33:18,914 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:33:19,449 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:33:19,450 - werkzeug - INFO -  * Debugger PIN: 568-515-322
+2025-04-01 13:59:56,635 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:59:57,168 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:59:57,169 - werkzeug - INFO -  * Debugger PIN: 408-759-895
+2025-04-01 14:00:39,773 - werkzeug - INFO -  * Detected change in '/project/sandbox/user-workspace/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:00:39,904 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:00:40,987 - werkzeug - WARNING - WebSocket transport not available. Install simple-websocket for improved performance.
+2025-04-01 14:00:40,989 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:00:40,990 - werkzeug - INFO -  * Debugger PIN: 114-877-150
+2025-04-01 14:01:24,390 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-01 14:01:24,391 - werkzeug - INFO -  * Running on http://172.17.0.2:8000/ (Press CTRL+C to quit)
+2025-04-01 14:01:24,391 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:01:24,934 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:01:24,935 - werkzeug - INFO -  * Debugger PIN: 114-877-150
+2025-04-01 14:01:38,341 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "GET / HTTP/1.1" 200 -
+2025-04-01 14:01:38,420 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 14:01:38,855 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "GET /socket.io/?EIO=4&transport=polling&t=PNng64V HTTP/1.1" 200 -
+2025-04-01 14:01:38,867 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 14:01:38,886 - web_dashboard - INFO - Client connected
+2025-04-01 14:01:38,887 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "POST /socket.io/?EIO=4&transport=polling&t=PNng653&sid=cuA3z8jP0Y5hxZOgAAAA HTTP/1.1" 200 -
+2025-04-01 14:01:38,900 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "GET /socket.io/?EIO=4&transport=polling&t=PNng659&sid=cuA3z8jP0Y5hxZOgAAAA HTTP/1.1" 200 -
+2025-04-01 14:01:38,912 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "GET /socket.io/?EIO=4&transport=polling&t=PNng65U&sid=cuA3z8jP0Y5hxZOgAAAA HTTP/1.1" 200 -
+2025-04-01 14:01:38,923 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "GET /socket.io/?EIO=4&transport=polling&t=PNng65f&sid=cuA3z8jP0Y5hxZOgAAAA HTTP/1.1" 200 -
+2025-04-01 14:01:38,929 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:01:38,930 - web_dashboard - INFO - [14:01:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:01:38,938 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-01 14:01:49,917 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:01:49,919 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:49] "GET /socket.io/?EIO=4&transport=websocket&sid=cuA3z8jP0Y5hxZOgAAAA HTTP/1.1" 200 -
+2025-04-01 14:03:14,222 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:14] "GET / HTTP/1.1" 200 -
+2025-04-01 14:03:14,302 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:14] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 14:03:14,855 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:14] "GET /socket.io/?EIO=4&transport=polling&t=PNngTWY HTTP/1.1" 200 -
+2025-04-01 14:03:14,862 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:14] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 14:03:14,906 - web_dashboard - INFO - Client connected
+2025-04-01 14:03:14,907 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:14] "POST /socket.io/?EIO=4&transport=polling&t=PNngTXN&sid=q5Q_ldakDjvxvct4AAAC HTTP/1.1" 200 -
+2025-04-01 14:03:14,913 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:14] "GET /socket.io/?EIO=4&transport=polling&t=PNngTXQ&sid=q5Q_ldakDjvxvct4AAAC HTTP/1.1" 200 -
+2025-04-01 14:03:15,252 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:15] "GET /socket.io/?EIO=4&transport=polling&t=PNngTbk&sid=q5Q_ldakDjvxvct4AAAC HTTP/1.1" 200 -
+2025-04-01 14:05:20,884 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:05:20,885 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:05:20] "GET /socket.io/?EIO=4&transport=websocket&sid=q5Q_ldakDjvxvct4AAAC HTTP/1.1" 200 -
+2025-04-01 14:07:29,539 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:29] "GET / HTTP/1.1" 200 -
+2025-04-01 14:07:29,571 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:29] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 14:07:29,939 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:29] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 14:07:29,940 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:29] "GET /socket.io/?EIO=4&transport=polling&t=PNnhRo9 HTTP/1.1" 200 -
+2025-04-01 14:07:30,029 - web_dashboard - INFO - Client connected
+2025-04-01 14:07:30,029 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:30] "GET /socket.io/?EIO=4&transport=polling&t=PNnhRp5&sid=1q6YfCxmXVb3ABezAAAE HTTP/1.1" 200 -
+2025-04-01 14:07:30,033 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:30] "POST /socket.io/?EIO=4&transport=polling&t=PNnhRp3&sid=1q6YfCxmXVb3ABezAAAE HTTP/1.1" 200 -
+2025-04-01 14:10:05,594 - RedditBot - INFO - Authenticated as testuser123
+2025-04-01 14:10:05,595 - web_dashboard - INFO - Configuration saved successfully
+2025-04-01 14:10:05,595 - web_dashboard - INFO - [14:10:05] Authentication - SUCCESS: Authenticated as testuser123
+2025-04-01 14:10:05,597 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:05] "POST /api/authenticate HTTP/1.1" 200 -
+2025-04-01 14:10:05,666 - web_dashboard - INFO - Configuration saved successfully
+2025-04-01 14:10:05,666 - web_dashboard - INFO - [14:10:05] Set Target - SUCCESS: Set target to r/testsubreddit
+2025-04-01 14:10:05,667 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:05] "POST /api/set-target HTTP/1.1" 200 -
+2025-04-01 14:10:28,050 - RedditBot - INFO - Authenticated as testuser123
+2025-04-01 14:10:28,051 - web_dashboard - INFO - [14:10:28] Start Bot - SUCCESS: Bot started for testuser123
+2025-04-01 14:10:28,052 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:28] "POST /api/start HTTP/1.1" 200 -
+2025-04-01 14:10:28,051 - RedditBot - INFO - Bot started monitoring r/testsubreddit
+2025-04-01 14:10:29,236 - RedditBot - ERROR - Error in main loop: received 401 HTTP response
+2025-04-01 14:10:56,314 - RedditBot - INFO - Stopping bot...
+2025-04-01 14:10:56,315 - web_dashboard - INFO - [14:10:56] Stop Bot - SUCCESS: Bot stopped for testuser123
+2025-04-01 14:10:56,316 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:56] "POST /api/stop HTTP/1.1" 200 -
+2025-04-01 14:11:20,170 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:11:20,171 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:20] "GET /socket.io/?EIO=4&transport=websocket&sid=1q6YfCxmXVb3ABezAAAE HTTP/1.1" 200 -
+2025-04-01 14:11:29,295 - RedditBot - INFO - Bot stopped
+2025-04-01 14:11:55,013 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:55] "GET / HTTP/1.1" 200 -
+2025-04-01 14:11:55,297 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:55] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 14:11:55,905 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:55] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 14:11:55,915 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:55] "GET /socket.io/?EIO=4&transport=polling&t=PNniShC HTTP/1.1" 200 -
+2025-04-01 14:11:56,132 - web_dashboard - INFO - Client connected
+2025-04-01 14:11:56,133 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:56] "POST /socket.io/?EIO=4&transport=polling&t=PNniSkz&sid=z9f_lt5jXTSe8uhzAAAG HTTP/1.1" 200 -
+2025-04-01 14:11:56,134 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:56] "GET /socket.io/?EIO=4&transport=polling&t=PNniSl5&sid=z9f_lt5jXTSe8uhzAAAG HTTP/1.1" 200 -
+2025-04-01 14:11:56,634 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:56] "GET /socket.io/?EIO=4&transport=polling&t=PNniSou&sid=z9f_lt5jXTSe8uhzAAAG HTTP/1.1" 200 -
+2025-04-01 14:12:00,750 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:12:00,751 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:00] "GET /socket.io/?EIO=4&transport=websocket&sid=z9f_lt5jXTSe8uhzAAAG HTTP/1.1" 200 -
+2025-04-01 14:12:00,857 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:00] "GET / HTTP/1.1" 200 -
+2025-04-01 14:12:01,169 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:01] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+2025-04-01 14:12:01,429 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:01] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 14:12:01,433 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:01] "GET /socket.io/?EIO=4&transport=polling&t=PNniU1i HTTP/1.1" 200 -
+2025-04-01 14:12:01,764 - web_dashboard - INFO - Client connected
+2025-04-01 14:12:01,765 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:01] "POST /socket.io/?EIO=4&transport=polling&t=PNniU6p&sid=u7RYmUt8402U5h8SAAAI HTTP/1.1" 200 -
+2025-04-01 14:12:01,767 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:01] "GET /socket.io/?EIO=4&transport=polling&t=PNniU6u&sid=u7RYmUt8402U5h8SAAAI HTTP/1.1" 200 -
+2025-04-01 14:12:02,238 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:02] "GET /socket.io/?EIO=4&transport=polling&t=PNniUAO&sid=u7RYmUt8402U5h8SAAAI HTTP/1.1" 200 -
+2025-04-01 14:12:02,443 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:02] "GET /socket.io/?EIO=4&transport=polling&t=PNniUHf&sid=u7RYmUt8402U5h8SAAAI HTTP/1.1" 200 -
+2025-04-01 14:12:44,096 - RedditBot - INFO - Authenticated as jon
+2025-04-01 14:12:44,097 - web_dashboard - INFO - Configuration saved successfully
+2025-04-01 14:12:44,097 - web_dashboard - INFO - [14:12:44] Authentication - SUCCESS: Authenticated as jon
+2025-04-01 14:12:44,099 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:44] "POST /api/authenticate HTTP/1.1" 200 -
+2025-04-01 14:12:44,318 - web_dashboard - INFO - Configuration saved successfully
+2025-04-01 14:12:44,318 - web_dashboard - INFO - [14:12:44] Set Target - SUCCESS: Set target to r/findacosigner
+2025-04-01 14:12:44,319 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:44] "POST /api/set-target HTTP/1.1" 200 -
+2025-04-01 12:51:25,559 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-01 12:51:25,559 - werkzeug - INFO -  * Running on http://192.168.1.65:8000/ (Press CTRL+C to quit)
+2025-04-01 12:51:25,560 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 12:51:26,746 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 12:51:26,769 - werkzeug - INFO -  * Debugger PIN: 683-483-169
+2025-04-01 13:04:09,728 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:04:09] "GET / HTTP/1.1" 200 -
+2025-04-01 13:04:10,407 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:04:10] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 13:04:10,906 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:04:10] "GET /socket.io/?EIO=4&transport=polling&t=PNoXcqL HTTP/1.1" 200 -
+2025-04-01 13:04:11,042 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:04:11,043 - web_dashboard - INFO - [13:04:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:04:11,044 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:04:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:04:11,075 - web_dashboard - INFO - Client connected
+2025-04-01 13:04:11,077 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:04:11] "POST /socket.io/?EIO=4&transport=polling&t=PNoXcse&sid=FY4lWsddZGjzCBnSAAAA HTTP/1.1" 200 -
+2025-04-01 13:04:11,094 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:04:11] "GET /socket.io/?EIO=4&transport=polling&t=PNoXctA&sid=FY4lWsddZGjzCBnSAAAA HTTP/1.1" 200 -
+2025-04-01 13:04:11,111 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:04:11] "GET /socket.io/?EIO=4&transport=polling&t=PNoXctY&sid=FY4lWsddZGjzCBnSAAAA HTTP/1.1" 200 -
+2025-04-01 13:04:41,040 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:04:41,041 - web_dashboard - INFO - [13:04:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:04:41,042 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:04:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:05:11,039 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:05:11,039 - web_dashboard - INFO - [13:05:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:05:11,040 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:05:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:05:41,042 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:05:41,042 - web_dashboard - INFO - [13:05:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:05:41,042 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:05:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:06:11,043 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:06:11,044 - web_dashboard - INFO - [13:06:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:06:11,044 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:06:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:06:41,043 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:06:41,043 - web_dashboard - INFO - [13:06:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:06:41,044 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:06:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:07:11,045 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:07:11,045 - web_dashboard - INFO - [13:07:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:07:11,046 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:07:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:07:41,045 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:07:41,046 - web_dashboard - INFO - [13:07:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:07:41,046 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:07:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:08:11,732 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:08:11,733 - web_dashboard - INFO - [13:08:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:08:11,733 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:08:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:08:41,732 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:08:41,734 - web_dashboard - INFO - [13:08:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:08:41,734 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:08:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:09:11,047 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:09:11,048 - web_dashboard - INFO - [13:09:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:09:11,049 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:09:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:09:41,048 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:09:41,048 - web_dashboard - INFO - [13:09:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:09:41,048 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:09:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:10:11,049 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:10:11,049 - web_dashboard - INFO - [13:10:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:10:11,049 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:10:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:10:41,047 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:10:41,048 - web_dashboard - INFO - [13:10:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:10:41,048 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:10:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:11:11,051 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:11:11,052 - web_dashboard - INFO - [13:11:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:11:11,053 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:11:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:11:41,051 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:11:41,053 - web_dashboard - INFO - [13:11:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:11:41,053 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:11:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:12:11,051 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:12:11,051 - web_dashboard - INFO - [13:12:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:12:11,052 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:12:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:12:41,054 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:12:41,055 - web_dashboard - INFO - [13:12:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:12:41,056 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:12:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:13:11,052 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:13:11,053 - web_dashboard - INFO - [13:13:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:13:11,054 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:13:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:13:41,054 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:13:41,056 - web_dashboard - INFO - [13:13:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:13:41,056 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:13:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:14:11,055 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:14:11,056 - web_dashboard - INFO - [13:14:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:14:11,057 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:14:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:14:41,057 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:14:41,058 - web_dashboard - INFO - [13:14:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:14:41,059 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:14:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:15:11,054 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:15:11,055 - web_dashboard - INFO - [13:15:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:15:11,055 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:15:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:15:41,075 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:15:41,076 - web_dashboard - INFO - [13:15:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:15:41,077 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:15:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:16:11,066 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:16:11,066 - web_dashboard - INFO - [13:16:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:16:11,067 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:16:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:16:41,058 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:16:41,059 - web_dashboard - INFO - [13:16:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:16:41,059 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:16:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:17:11,057 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:17:11,057 - web_dashboard - INFO - [13:17:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:17:11,059 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:17:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:17:41,054 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:17:41,054 - web_dashboard - INFO - [13:17:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:17:41,055 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:17:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:18:11,054 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:18:11,055 - web_dashboard - INFO - [13:18:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:18:11,056 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:18:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:18:41,059 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:18:41,061 - web_dashboard - INFO - [13:18:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:18:41,064 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:18:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:19:11,059 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:19:11,060 - web_dashboard - INFO - [13:19:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:19:11,060 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:19:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:19:41,057 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:19:41,058 - web_dashboard - INFO - [13:19:41] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:19:41,058 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:19:41] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:19:46,864 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:19:46,865 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:19:46] "GET /socket.io/?EIO=4&transport=websocket&sid=FY4lWsddZGjzCBnSAAAA HTTP/1.1" 200 -
+2025-04-01 13:19:46,893 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:19:46] "GET / HTTP/1.1" 200 -
+2025-04-01 13:19:47,085 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:19:47] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 13:19:47,551 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:19:47] "GET /socket.io/?EIO=4&transport=polling&t=PNobBVN HTTP/1.1" 200 -
+2025-04-01 13:19:47,628 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:19:47,630 - web_dashboard - INFO - [13:19:47] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:19:47,631 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:19:47] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:19:47,652 - web_dashboard - INFO - Client connected
+2025-04-01 13:19:47,664 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:19:47] "POST /socket.io/?EIO=4&transport=polling&t=PNobBWe&sid=kCB9xU7W3zY1BvWMAAAC HTTP/1.1" 200 -
+2025-04-01 13:19:47,669 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:19:47] "GET /socket.io/?EIO=4&transport=polling&t=PNobBWo&sid=kCB9xU7W3zY1BvWMAAAC HTTP/1.1" 200 -
+2025-04-01 13:19:47,699 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:19:47] "GET /socket.io/?EIO=4&transport=polling&t=PNobBXb&sid=kCB9xU7W3zY1BvWMAAAC HTTP/1.1" 200 -
+2025-04-01 13:19:47,748 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:19:47] "GET /socket.io/?EIO=4&transport=polling&t=PNobBYL&sid=kCB9xU7W3zY1BvWMAAAC HTTP/1.1" 200 -
+2025-04-01 13:20:17,626 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:20:17,626 - web_dashboard - INFO - [13:20:17] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:20:17,627 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:20:17] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:20:47,628 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:20:47,628 - web_dashboard - INFO - [13:20:47] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:20:47,629 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:20:47] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:21:17,629 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:21:17,630 - web_dashboard - INFO - [13:21:17] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:21:17,631 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:21:17] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:21:47,633 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:21:47,634 - web_dashboard - INFO - [13:21:47] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:21:47,636 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:21:47] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:22:17,630 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:22:17,631 - web_dashboard - INFO - [13:22:17] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:22:17,631 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:22:17] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:22:47,631 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:22:47,632 - web_dashboard - INFO - [13:22:47] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:22:47,632 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:22:47] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:23:17,632 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:23:17,632 - web_dashboard - INFO - [13:23:17] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:23:17,633 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:23:17] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:23:47,632 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:23:47,633 - web_dashboard - INFO - [13:23:47] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:23:47,633 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:23:47] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:24:17,632 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:24:17,633 - web_dashboard - INFO - [13:24:17] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:24:17,633 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:24:17] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:24:47,633 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:24:47,633 - web_dashboard - INFO - [13:24:47] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:24:47,633 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:24:47] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:25:05,374 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:25:05,374 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:25:05] "GET /socket.io/?EIO=4&transport=websocket&sid=kCB9xU7W3zY1BvWMAAAC HTTP/1.1" 200 -
+2025-04-01 13:25:05,848 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:25:05] "GET /socket.io/?EIO=4&transport=polling&t=PNocPCq HTTP/1.1" 200 -
+2025-04-01 13:25:05,885 - web_dashboard - INFO - Client connected
+2025-04-01 13:25:05,887 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:25:05] "POST /socket.io/?EIO=4&transport=polling&t=PNocPDI&sid=Pg5gbtbLnrsqP_ajAAAE HTTP/1.1" 200 -
+2025-04-01 13:25:05,894 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:25:05] "GET /socket.io/?EIO=4&transport=polling&t=PNocPDI.0&sid=Pg5gbtbLnrsqP_ajAAAE HTTP/1.1" 200 -
+2025-04-01 13:25:17,694 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:25:17,695 - web_dashboard - INFO - [13:25:17] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:25:17,696 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:25:17] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:25:36,284 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:25:36,285 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:25:36] "GET /socket.io/?EIO=4&transport=websocket&sid=Pg5gbtbLnrsqP_ajAAAE HTTP/1.1" 200 -
+2025-04-01 13:25:36,324 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:25:36] "GET / HTTP/1.1" 200 -
+2025-04-01 13:25:36,596 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:25:36] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 13:25:37,000 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:25:36] "GET /socket.io/?EIO=4&transport=polling&t=PNocWo2 HTTP/1.1" 200 -
+2025-04-01 13:25:37,135 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:25:37,135 - web_dashboard - INFO - [13:25:37] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:25:37,136 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:25:37] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:25:37,167 - web_dashboard - INFO - Client connected
+2025-04-01 13:25:37,169 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:25:37] "POST /socket.io/?EIO=4&transport=polling&t=PNocWs1&sid=Jbu_MF6n8k39xTGvAAAG HTTP/1.1" 200 -
+2025-04-01 13:25:37,169 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:25:37] "GET /socket.io/?EIO=4&transport=polling&t=PNocWs6&sid=Jbu_MF6n8k39xTGvAAAG HTTP/1.1" 200 -
+2025-04-01 13:25:37,229 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:25:37] "GET /socket.io/?EIO=4&transport=polling&t=PNocWsm&sid=Jbu_MF6n8k39xTGvAAAG HTTP/1.1" 200 -
+2025-04-01 13:26:07,124 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:26:07,124 - web_dashboard - INFO - [13:26:07] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:26:07,125 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:26:07] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:26:37,123 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:26:37,124 - web_dashboard - INFO - [13:26:37] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:26:37,124 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:26:37] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:26:44,581 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:26:44,581 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:26:44] "GET /socket.io/?EIO=4&transport=websocket&sid=Jbu_MF6n8k39xTGvAAAG HTTP/1.1" 200 -
+2025-04-01 13:26:44,608 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:26:44] "GET / HTTP/1.1" 200 -
+2025-04-01 13:26:44,750 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:26:44] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+2025-04-01 13:26:45,264 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:26:45] "GET /socket.io/?EIO=4&transport=polling&t=PNocnU3 HTTP/1.1" 200 -
+2025-04-01 13:26:45,289 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:26:45,290 - web_dashboard - INFO - [13:26:45] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:26:45,291 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:26:45] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:26:45,319 - web_dashboard - INFO - Client connected
+2025-04-01 13:26:45,320 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:26:45] "POST /socket.io/?EIO=4&transport=polling&t=PNocnU_&sid=lIvZwyEjl9mvm1GFAAAI HTTP/1.1" 200 -
+2025-04-01 13:26:45,326 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:26:45] "GET /socket.io/?EIO=4&transport=polling&t=PNocnV7&sid=lIvZwyEjl9mvm1GFAAAI HTTP/1.1" 200 -
+2025-04-01 13:26:45,378 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:26:45] "GET /socket.io/?EIO=4&transport=polling&t=PNocnVu&sid=lIvZwyEjl9mvm1GFAAAI HTTP/1.1" 200 -
+2025-04-01 13:26:45,411 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:26:45] "GET /socket.io/?EIO=4&transport=polling&t=PNocnWS&sid=lIvZwyEjl9mvm1GFAAAI HTTP/1.1" 200 -
+2025-04-01 13:27:15,286 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:27:15,286 - web_dashboard - INFO - [13:27:15] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:27:15,287 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:27:15] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:27:45,792 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:27:45,793 - web_dashboard - INFO - [13:27:45] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:27:45,794 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:27:45] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:28:15,289 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:28:15,289 - web_dashboard - INFO - [13:28:15] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:28:15,290 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:28:15] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:28:45,288 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:28:45,288 - web_dashboard - INFO - [13:28:45] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:28:45,288 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:28:45] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:29:15,290 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:29:15,290 - web_dashboard - INFO - [13:29:15] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:29:15,290 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:29:15] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:29:45,290 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:29:45,290 - web_dashboard - INFO - [13:29:45] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:29:45,291 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:29:45] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:30:15,292 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:30:15,293 - web_dashboard - INFO - [13:30:15] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:30:15,294 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:30:15] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:30:45,290 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:30:45,291 - web_dashboard - INFO - [13:30:45] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:30:45,292 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:30:45] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:31:15,292 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:31:15,293 - web_dashboard - INFO - [13:31:15] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:31:15,294 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:31:15] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:31:44,620 - werkzeug - INFO -  * Detected change in '/Users/zackle/Documents/Apps/blackboxai-1743517864527/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:31:44,920 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:31:47,168 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:31:47,197 - werkzeug - INFO -  * Debugger PIN: 683-483-169
+2025-04-01 13:31:47,473 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:31:47,474 - web_dashboard - INFO - [13:31:47] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:31:47,475 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:31:47] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:31:47,479 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:31:47] "GET /socket.io/?EIO=4&transport=polling&t=PNodw_k HTTP/1.1" 200 -
+2025-04-01 13:31:47,494 - web_dashboard - INFO - Client connected
+2025-04-01 13:31:47,496 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:31:47] "GET /socket.io/?EIO=4&transport=polling&t=PNodxGS&sid=PgBgkzexABnsM1I0AAAA HTTP/1.1" 200 -
+2025-04-01 13:31:47,496 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:31:47] "POST /socket.io/?EIO=4&transport=polling&t=PNodxGR&sid=PgBgkzexABnsM1I0AAAA HTTP/1.1" 200 -
+2025-04-01 13:32:15,294 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:32:15,294 - web_dashboard - INFO - [13:32:15] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:32:15,295 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:32:15] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:32:37,908 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:32:37,909 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:32:37] "GET /socket.io/?EIO=4&transport=websocket&sid=PgBgkzexABnsM1I0AAAA HTTP/1.1" 200 -
+2025-04-01 13:32:37,956 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:32:37] "GET / HTTP/1.1" 200 -
+2025-04-01 13:32:38,123 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:32:38] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 13:32:38,595 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:32:38] "GET /socket.io/?EIO=4&transport=polling&t=PNoe7k- HTTP/1.1" 200 -
+2025-04-01 13:32:38,643 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:32:38,644 - web_dashboard - INFO - [13:32:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:32:38,647 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:32:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:32:38,685 - web_dashboard - INFO - Client connected
+2025-04-01 13:32:38,686 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:32:38] "POST /socket.io/?EIO=4&transport=polling&t=PNoe7ln&sid=tZXooqW1h96YZfClAAAC HTTP/1.1" 200 -
+2025-04-01 13:32:38,694 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:32:38] "GET /socket.io/?EIO=4&transport=polling&t=PNoe7lo&sid=tZXooqW1h96YZfClAAAC HTTP/1.1" 200 -
+2025-04-01 13:32:38,752 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:32:38] "GET /socket.io/?EIO=4&transport=polling&t=PNoe7nQ&sid=tZXooqW1h96YZfClAAAC HTTP/1.1" 200 -
+2025-04-01 13:32:38,817 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:32:38] "GET /socket.io/?EIO=4&transport=polling&t=PNoe7oD&sid=tZXooqW1h96YZfClAAAC HTTP/1.1" 200 -
+2025-04-01 13:33:08,794 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:33:08,794 - web_dashboard - INFO - [13:33:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:33:08,795 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:33:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:33:34,207 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:33:34,209 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:33:34] "GET /socket.io/?EIO=4&transport=websocket&sid=tZXooqW1h96YZfClAAAC HTTP/1.1" 200 -
+2025-04-01 13:33:34,236 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:33:34] "GET / HTTP/1.1" 200 -
+2025-04-01 13:33:34,376 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:33:34] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 13:33:34,824 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:33:34] "GET /socket.io/?EIO=4&transport=polling&t=PNoeLTX HTTP/1.1" 200 -
+2025-04-01 13:33:34,863 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:33:34,863 - web_dashboard - INFO - [13:33:34] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:33:34,865 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:33:34] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:33:34,867 - web_dashboard - INFO - Client connected
+2025-04-01 13:33:34,870 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:33:34] "POST /socket.io/?EIO=4&transport=polling&t=PNoeLUD&sid=imikCfJ-pDhIltDrAAAE HTTP/1.1" 200 -
+2025-04-01 13:33:34,887 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:33:34] "GET /socket.io/?EIO=4&transport=polling&t=PNoeLUH&sid=imikCfJ-pDhIltDrAAAE HTTP/1.1" 200 -
+2025-04-01 13:33:34,916 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:33:34] "GET /socket.io/?EIO=4&transport=polling&t=PNoeLU_&sid=imikCfJ-pDhIltDrAAAE HTTP/1.1" 200 -
+2025-04-01 13:33:34,967 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:33:34] "GET /socket.io/?EIO=4&transport=polling&t=PNoeLVq&sid=imikCfJ-pDhIltDrAAAE HTTP/1.1" 200 -
+2025-04-01 13:33:55,351 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:33:55,352 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:33:55] "GET /socket.io/?EIO=4&transport=websocket&sid=imikCfJ-pDhIltDrAAAE HTTP/1.1" 200 -
+2025-04-01 13:34:28,409 - werkzeug - INFO -  * Detected change in '/Users/zackle/Documents/Apps/blackboxai-1743517864527/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:34:28,757 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:34:30,776 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:34:30,786 - werkzeug - INFO -  * Debugger PIN: 683-483-169
+2025-04-01 13:35:23,440 - werkzeug - INFO -  * Detected change in '/Users/zackle/Documents/Apps/blackboxai-1743517864527/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:35:23,663 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:35:25,465 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:35:25,476 - werkzeug - INFO -  * Debugger PIN: 683-483-169
+2025-04-01 13:37:04,978 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:37:04] "GET / HTTP/1.1" 200 -
+2025-04-01 13:37:05,277 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:37:05] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 13:37:05,899 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:37:05] "GET /socket.io/?EIO=4&transport=polling&t=PNof8_Y HTTP/1.1" 200 -
+2025-04-01 13:37:06,165 - web_dashboard - INFO - Client connected
+2025-04-01 13:37:06,166 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:37:06] "POST /socket.io/?EIO=4&transport=polling&t=PNof928&sid=zo7vQlqHeCTouAZIAAAA HTTP/1.1" 200 -
+2025-04-01 13:37:06,172 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:37:06,174 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:37:06] "GET /socket.io/?EIO=4&transport=polling&t=PNof92A&sid=zo7vQlqHeCTouAZIAAAA HTTP/1.1" 200 -
+2025-04-01 13:37:06,179 - web_dashboard - INFO - [13:37:06] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:37:06,180 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:37:06] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:37:06,280 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:37:06] "GET /socket.io/?EIO=4&transport=polling&t=PNof95a&sid=zo7vQlqHeCTouAZIAAAA HTTP/1.1" 200 -
+2025-04-01 13:37:06,295 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:37:06] "GET /socket.io/?EIO=4&transport=polling&t=PNof95q&sid=zo7vQlqHeCTouAZIAAAA HTTP/1.1" 200 -
+2025-04-01 13:37:36,061 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:37:36,062 - web_dashboard - INFO - [13:37:36] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:37:36,063 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:37:36] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:38:06,063 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:38:06,065 - web_dashboard - INFO - [13:38:06] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:38:06,065 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:38:06] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:38:36,061 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:38:36,062 - web_dashboard - INFO - [13:38:36] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:38:36,079 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:38:36] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:38:53,982 - werkzeug - INFO -  * Detected change in '/Users/zackle/Documents/Apps/blackboxai-1743517864527/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:38:54,225 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:38:55,854 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:38:55,873 - werkzeug - INFO -  * Debugger PIN: 683-483-169
+2025-04-01 13:38:55,954 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:38:55] "GET /socket.io/?EIO=4&transport=polling&t=PNofZnX HTTP/1.1" 200 -
+2025-04-01 13:38:55,964 - web_dashboard - INFO - Client connected
+2025-04-01 13:38:55,965 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:38:55] "POST /socket.io/?EIO=4&transport=polling&t=PNofZtK&sid=_LL-fm2btrnWZRmhAAAA HTTP/1.1" 200 -
+2025-04-01 13:38:55,966 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:38:55] "GET /socket.io/?EIO=4&transport=polling&t=PNofZtL&sid=_LL-fm2btrnWZRmhAAAA HTTP/1.1" 200 -
+2025-04-01 13:38:55,979 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:38:55] "GET /socket.io/?EIO=4&transport=polling&t=PNofZtc&sid=_LL-fm2btrnWZRmhAAAA HTTP/1.1" 200 -
+2025-04-01 13:39:06,065 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:39:06,065 - web_dashboard - INFO - [13:39:06] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:39:06,067 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:39:06] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:39:36,065 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:39:36,066 - web_dashboard - INFO - [13:39:36] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:39:36,066 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:39:36] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:40:06,063 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:40:06,063 - web_dashboard - INFO - [13:40:06] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:40:06,064 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:40:06] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:40:24,668 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:40:24,669 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:40:24] "GET /socket.io/?EIO=4&transport=websocket&sid=_LL-fm2btrnWZRmhAAAA HTTP/1.1" 200 -
+2025-04-01 13:40:24,717 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:40:24] "GET / HTTP/1.1" 200 -
+2025-04-01 13:40:24,929 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:40:24] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 13:40:25,438 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:40:25] "GET /socket.io/?EIO=4&transport=polling&t=PNofvjJ HTTP/1.1" 200 -
+2025-04-01 13:40:25,533 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:40:25,535 - web_dashboard - INFO - [13:40:25] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:40:25,538 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:40:25] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:40:25,544 - web_dashboard - INFO - Client connected
+2025-04-01 13:40:25,547 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:40:25] "POST /socket.io/?EIO=4&transport=polling&t=PNofvkr&sid=Ox4j0OZ6kjnyptL2AAAC HTTP/1.1" 200 -
+2025-04-01 13:40:25,559 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:40:25] "GET /socket.io/?EIO=4&transport=polling&t=PNofvku&sid=Ox4j0OZ6kjnyptL2AAAC HTTP/1.1" 200 -
+2025-04-01 13:40:25,610 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:40:25] "GET /socket.io/?EIO=4&transport=polling&t=PNofvm7&sid=Ox4j0OZ6kjnyptL2AAAC HTTP/1.1" 200 -
+2025-04-01 13:40:25,678 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:40:25] "GET /socket.io/?EIO=4&transport=polling&t=PNofvmy&sid=Ox4j0OZ6kjnyptL2AAAC HTTP/1.1" 200 -
+2025-04-01 13:40:55,532 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:40:55,532 - web_dashboard - INFO - [13:40:55] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:40:55,532 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:40:55] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:41:25,529 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:41:25,530 - web_dashboard - INFO - [13:41:25] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:41:25,530 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:41:25] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:41:55,527 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:41:55,528 - web_dashboard - INFO - [13:41:55] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:41:55,528 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:41:55] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:42:25,529 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:42:25,531 - web_dashboard - INFO - [13:42:25] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:42:25,531 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:42:25] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:42:55,530 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:42:55,532 - web_dashboard - INFO - [13:42:55] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:42:55,533 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:42:55] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:43:25,532 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:43:25,533 - web_dashboard - INFO - [13:43:25] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:43:25,534 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:43:25] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:43:55,532 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:43:55,534 - web_dashboard - INFO - [13:43:55] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:43:55,535 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:43:55] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:44:25,533 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:44:25,533 - web_dashboard - INFO - [13:44:25] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:44:25,533 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:44:25] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:44:55,534 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:44:55,534 - web_dashboard - INFO - [13:44:55] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:44:55,534 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:44:55] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:45:08,122 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:45:08,123 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:45:08] "GET /socket.io/?EIO=4&transport=websocket&sid=Ox4j0OZ6kjnyptL2AAAC HTTP/1.1" 200 -
+2025-04-01 13:45:08,167 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:45:08] "GET / HTTP/1.1" 200 -
+2025-04-01 13:45:08,359 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:45:08] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+2025-04-01 13:45:08,836 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:45:08] "GET /socket.io/?EIO=4&transport=polling&t=PNog-vM HTTP/1.1" 200 -
+2025-04-01 13:45:08,908 - web_dashboard - INFO - Client connected
+2025-04-01 13:45:08,912 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:45:08,913 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:45:08] "POST /socket.io/?EIO=4&transport=polling&t=PNog-vo&sid=jnCEg8evWZVUeUBMAAAE HTTP/1.1" 200 -
+2025-04-01 13:45:08,913 - web_dashboard - INFO - [13:45:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:45:08,917 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:45:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:45:08,919 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:45:08] "GET /socket.io/?EIO=4&transport=polling&t=PNog-vs&sid=jnCEg8evWZVUeUBMAAAE HTTP/1.1" 200 -
+2025-04-01 13:45:08,961 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:45:08] "GET /socket.io/?EIO=4&transport=polling&t=PNog-xR&sid=jnCEg8evWZVUeUBMAAAE HTTP/1.1" 200 -
+2025-04-01 13:45:38,855 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:45:38,858 - web_dashboard - INFO - [13:45:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:45:38,859 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:45:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:46:08,856 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:46:08,857 - web_dashboard - INFO - [13:46:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:46:08,857 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:46:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:46:38,871 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:46:38,872 - web_dashboard - INFO - [13:46:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:46:38,873 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:46:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:47:08,897 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:47:08,897 - web_dashboard - INFO - [13:47:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:47:08,898 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:47:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:47:38,903 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:47:38,903 - web_dashboard - INFO - [13:47:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:47:38,904 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:47:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:48:08,904 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:48:08,905 - web_dashboard - INFO - [13:48:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:48:08,906 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:48:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:48:38,903 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:48:38,904 - web_dashboard - INFO - [13:48:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:48:38,904 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:48:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:49:08,904 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:49:08,905 - web_dashboard - INFO - [13:49:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:49:08,905 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:49:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:49:38,906 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:49:38,906 - web_dashboard - INFO - [13:49:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:49:38,906 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:49:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:50:08,906 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:50:08,907 - web_dashboard - INFO - [13:50:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:50:08,907 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:50:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:50:38,906 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:50:38,907 - web_dashboard - INFO - [13:50:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:50:38,908 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:50:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:51:08,907 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:51:08,908 - web_dashboard - INFO - [13:51:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:51:08,908 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:51:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:51:38,908 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:51:38,908 - web_dashboard - INFO - [13:51:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:51:38,909 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:51:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:52:08,911 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:52:08,911 - web_dashboard - INFO - [13:52:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:52:08,911 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:52:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:52:30,055 - werkzeug - INFO -  * Detected change in '/Users/zackle/Documents/Apps/blackboxai-1743517864527/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 13:52:30,451 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 13:52:32,559 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 13:52:32,579 - werkzeug - INFO -  * Debugger PIN: 683-483-169
+2025-04-01 13:52:32,709 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:52:32] "GET /socket.io/?EIO=4&transport=polling&t=PNoih0E HTTP/1.1" 200 -
+2025-04-01 13:52:32,724 - web_dashboard - INFO - Client connected
+2025-04-01 13:52:32,726 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:52:32] "GET /socket.io/?EIO=4&transport=polling&t=PNoihHA&sid=s3gibHF_LmyRca-tAAAA HTTP/1.1" 200 -
+2025-04-01 13:52:32,728 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:52:32] "POST /socket.io/?EIO=4&transport=polling&t=PNoihH9&sid=s3gibHF_LmyRca-tAAAA HTTP/1.1" 200 -
+2025-04-01 13:52:38,910 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:52:38,910 - web_dashboard - INFO - [13:52:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:52:38,911 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:52:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:53:08,911 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:53:08,913 - web_dashboard - INFO - [13:53:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:53:08,914 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:53:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:53:38,912 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:53:38,914 - web_dashboard - INFO - [13:53:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:53:38,915 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:53:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:54:08,912 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:54:08,914 - web_dashboard - INFO - [13:54:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:54:08,914 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:54:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:54:38,915 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:54:38,915 - web_dashboard - INFO - [13:54:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:54:38,916 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:54:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:55:08,914 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:55:08,915 - web_dashboard - INFO - [13:55:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:55:08,915 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:55:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:55:37,589 - web_dashboard - INFO - Client disconnected
+2025-04-01 13:55:37,604 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:55:37] "GET /socket.io/?EIO=4&transport=websocket&sid=s3gibHF_LmyRca-tAAAA HTTP/1.1" 200 -
+2025-04-01 13:55:37,665 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:55:37] "GET / HTTP/1.1" 200 -
+2025-04-01 13:55:37,836 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:55:37] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 13:55:38,301 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:55:38] "GET /socket.io/?EIO=4&transport=polling&t=PNojOZU HTTP/1.1" 200 -
+2025-04-01 13:55:38,304 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:55:38,305 - web_dashboard - INFO - [13:55:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:55:38,305 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:55:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:55:38,354 - web_dashboard - INFO - Client connected
+2025-04-01 13:55:38,359 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:55:38] "POST /socket.io/?EIO=4&transport=polling&t=PNojObY&sid=dn2ZGvoLlYhJ2LspAAAC HTTP/1.1" 200 -
+2025-04-01 13:55:38,359 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:55:38] "GET /socket.io/?EIO=4&transport=polling&t=PNojObY.0&sid=dn2ZGvoLlYhJ2LspAAAC HTTP/1.1" 200 -
+2025-04-01 13:55:38,421 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:55:38] "GET /socket.io/?EIO=4&transport=polling&t=PNojOcn&sid=dn2ZGvoLlYhJ2LspAAAC HTTP/1.1" 200 -
+2025-04-01 13:56:08,247 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:56:08,247 - web_dashboard - INFO - [13:56:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:56:08,248 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:56:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:56:38,246 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:56:38,246 - web_dashboard - INFO - [13:56:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:56:38,246 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:56:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:57:08,248 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:57:08,249 - web_dashboard - INFO - [13:57:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:57:08,249 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:57:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:57:38,250 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:57:38,250 - web_dashboard - INFO - [13:57:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:57:38,250 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:57:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:58:08,251 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:58:08,251 - web_dashboard - INFO - [13:58:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:58:08,252 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:58:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:58:38,252 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:58:38,252 - web_dashboard - INFO - [13:58:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:58:38,252 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:58:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:59:08,252 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:59:08,253 - web_dashboard - INFO - [13:59:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:59:08,253 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:59:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 13:59:38,254 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:59:38,254 - web_dashboard - INFO - [13:59:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 13:59:38,254 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 13:59:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:00:08,254 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:00:08,254 - web_dashboard - INFO - [14:00:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:00:08,254 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:00:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:00:38,254 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:00:38,254 - web_dashboard - INFO - [14:00:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:00:38,255 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:00:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:01:08,255 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:01:08,255 - web_dashboard - INFO - [14:01:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:01:08,255 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:01:38,257 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:01:38,257 - web_dashboard - INFO - [14:01:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:01:38,257 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:01:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:02:08,257 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:02:08,258 - web_dashboard - INFO - [14:02:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:02:08,259 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:02:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:02:38,259 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:02:38,259 - web_dashboard - INFO - [14:02:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:02:38,259 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:02:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:03:08,282 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:03:08,282 - web_dashboard - INFO - [14:03:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:03:08,283 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:03:38,259 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:03:38,260 - web_dashboard - INFO - [14:03:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:03:38,261 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:03:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:04:08,260 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:04:08,260 - web_dashboard - INFO - [14:04:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:04:08,260 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:04:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:04:38,262 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:04:38,262 - web_dashboard - INFO - [14:04:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:04:38,262 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:04:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:05:08,263 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:05:08,263 - web_dashboard - INFO - [14:05:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:05:08,264 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:05:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:05:38,264 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:05:38,265 - web_dashboard - INFO - [14:05:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:05:38,266 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:05:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:06:08,265 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:06:08,265 - web_dashboard - INFO - [14:06:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:06:08,266 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:06:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:06:38,266 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:06:38,266 - web_dashboard - INFO - [14:06:38] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:06:38,267 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:06:38] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:07:08,266 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:07:08,266 - web_dashboard - INFO - [14:07:08] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:07:08,267 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:08] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:07:08,508 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:07:08,508 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:08] "GET /socket.io/?EIO=4&transport=websocket&sid=dn2ZGvoLlYhJ2LspAAAC HTTP/1.1" 200 -
+2025-04-01 14:07:08,538 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:08] "GET / HTTP/1.1" 200 -
+2025-04-01 14:07:08,724 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:08] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 14:07:09,236 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:09] "GET /socket.io/?EIO=4&transport=polling&t=PNom1Ge HTTP/1.1" 200 -
+2025-04-01 14:07:09,292 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:07:09,293 - web_dashboard - INFO - [14:07:09] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:07:09,296 - web_dashboard - INFO - Client connected
+2025-04-01 14:07:09,303 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:09] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:07:09,313 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:09] "POST /socket.io/?EIO=4&transport=polling&t=PNom1HI&sid=dhYU8Z0C47iCTVK-AAAE HTTP/1.1" 200 -
+2025-04-01 14:07:09,313 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:09] "GET /socket.io/?EIO=4&transport=polling&t=PNom1HL&sid=dhYU8Z0C47iCTVK-AAAE HTTP/1.1" 200 -
+2025-04-01 14:07:09,356 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:09] "GET /socket.io/?EIO=4&transport=polling&t=PNom1Ia&sid=dhYU8Z0C47iCTVK-AAAE HTTP/1.1" 200 -
+2025-04-01 14:07:09,423 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:09] "GET /socket.io/?EIO=4&transport=polling&t=PNom1Jb&sid=dhYU8Z0C47iCTVK-AAAE HTTP/1.1" 200 -
+2025-04-01 14:07:20,072 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:07:20,073 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:20] "GET /socket.io/?EIO=4&transport=websocket&sid=dhYU8Z0C47iCTVK-AAAE HTTP/1.1" 200 -
+2025-04-01 14:07:20,095 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:20] "GET / HTTP/1.1" 200 -
+2025-04-01 14:07:20,238 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:20] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+2025-04-01 14:07:20,414 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:20] "GET /socket.io/?EIO=4&transport=polling&t=PNom3-x HTTP/1.1" 200 -
+2025-04-01 14:07:20,415 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:07:20,459 - web_dashboard - INFO - [14:07:20] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:07:20,489 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:20] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:07:20,588 - web_dashboard - INFO - Client connected
+2025-04-01 14:07:20,592 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:20] "POST /socket.io/?EIO=4&transport=polling&t=PNom40a&sid=ZrHAWuBx4qvw7xdYAAAG HTTP/1.1" 200 -
+2025-04-01 14:07:20,594 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:20] "GET /socket.io/?EIO=4&transport=polling&t=PNom40b&sid=ZrHAWuBx4qvw7xdYAAAG HTTP/1.1" 200 -
+2025-04-01 14:07:50,405 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:07:50,408 - web_dashboard - INFO - [14:07:50] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:07:50,409 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:07:50] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:08:20,396 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:08:20,396 - web_dashboard - INFO - [14:08:20] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:08:20,397 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:08:20] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:08:50,900 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:08:50,902 - web_dashboard - INFO - [14:08:50] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:08:50,902 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:08:50] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:09:20,896 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:09:20,897 - web_dashboard - INFO - [14:09:20] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:09:20,898 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:09:20] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:09:50,903 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:09:50,904 - web_dashboard - INFO - [14:09:50] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:09:50,905 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:09:50] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:10:51,574 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:10:51,574 - web_dashboard - INFO - [14:10:51] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:10:51,575 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:51] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:10:53,338 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:10:53,339 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:53] "GET /socket.io/?EIO=4&transport=websocket&sid=ZrHAWuBx4qvw7xdYAAAG HTTP/1.1" 200 -
+2025-04-01 14:10:53,387 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:53] "GET / HTTP/1.1" 200 -
+2025-04-01 14:10:53,498 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:53] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 14:10:53,739 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:53] "GET /socket.io/?EIO=4&transport=polling&t=PNomu3t HTTP/1.1" 200 -
+2025-04-01 14:10:53,742 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:10:53,751 - web_dashboard - INFO - [14:10:53] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:10:53,752 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:53] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:10:53,833 - web_dashboard - INFO - Client connected
+2025-04-01 14:10:53,834 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:53] "POST /socket.io/?EIO=4&transport=polling&t=PNomu5Z&sid=9NQG9rCaHO4m2PbJAAAI HTTP/1.1" 200 -
+2025-04-01 14:10:53,852 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:10:53] "GET /socket.io/?EIO=4&transport=polling&t=PNomu5c&sid=9NQG9rCaHO4m2PbJAAAI HTTP/1.1" 200 -
+2025-04-01 14:11:23,723 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:11:23,723 - web_dashboard - INFO - [14:11:23] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:11:23,724 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:23] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:11:53,902 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:11:53,902 - web_dashboard - INFO - [14:11:53] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:11:53,902 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:11:53] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:12:23,923 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:12:23,926 - web_dashboard - INFO - [14:12:23] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:12:23,927 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:23] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:12:53,904 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:12:53,904 - web_dashboard - INFO - [14:12:53] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:12:53,905 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:12:53] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:13:23,904 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:13:23,904 - web_dashboard - INFO - [14:13:23] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:13:23,905 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:13:23] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:13:53,727 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:13:53,728 - web_dashboard - INFO - [14:13:53] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:13:53,728 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:13:53] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:14:23,731 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:14:23,731 - web_dashboard - INFO - [14:14:23] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:14:23,732 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:14:23] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:14:53,746 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:14:53,747 - web_dashboard - INFO - [14:14:53] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:14:53,749 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:14:53] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:15:23,732 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:15:23,732 - web_dashboard - INFO - [14:15:23] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:15:23,733 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:15:23] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:15:53,730 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:15:53,730 - web_dashboard - INFO - [14:15:53] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:15:53,732 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:15:53] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:16:23,733 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:16:23,733 - web_dashboard - INFO - [14:16:23] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:16:23,734 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:16:23] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:16:53,731 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:16:53,731 - web_dashboard - INFO - [14:16:53] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:16:53,733 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:16:53] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:17:23,732 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:17:23,733 - web_dashboard - INFO - [14:17:23] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:17:23,733 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:17:23] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:17:53,733 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:17:53,734 - web_dashboard - INFO - [14:17:53] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:17:53,734 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:17:53] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:18:05,331 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:18:05,334 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:05] "GET /socket.io/?EIO=4&transport=websocket&sid=9NQG9rCaHO4m2PbJAAAI HTTP/1.1" 200 -
+2025-04-01 14:18:05,385 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:05] "GET / HTTP/1.1" 200 -
+2025-04-01 14:18:05,568 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:05] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 14:18:06,956 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:06] "GET /socket.io/?EIO=4&transport=polling&t=PNooXrH HTTP/1.1" 200 -
+2025-04-01 14:18:07,052 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:18:07,054 - web_dashboard - INFO - [14:18:07] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:18:07,055 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:07] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:18:07,093 - web_dashboard - INFO - Client connected
+2025-04-01 14:18:07,094 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:07] "POST /socket.io/?EIO=4&transport=polling&t=PNooXtk&sid=nPpJZsTgXcZJfJ2PAAAK HTTP/1.1" 200 -
+2025-04-01 14:18:07,194 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:07] "GET /socket.io/?EIO=4&transport=polling&t=PNooXv0&sid=nPpJZsTgXcZJfJ2PAAAK HTTP/1.1" 200 -
+2025-04-01 14:18:11,158 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:18:11,159 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:11] "GET /socket.io/?EIO=4&transport=websocket&sid=nPpJZsTgXcZJfJ2PAAAK HTTP/1.1" 200 -
+2025-04-01 14:18:11,175 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:11] "GET / HTTP/1.1" 200 -
+2025-04-01 14:18:11,251 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:11] "[36mGET /static/main.js HTTP/1.1[0m" 304 -
+2025-04-01 14:18:11,610 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:11] "GET /socket.io/?EIO=4&transport=polling&t=PNooY-M HTTP/1.1" 200 -
+2025-04-01 14:18:11,647 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:18:11,648 - web_dashboard - INFO - [14:18:11] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:18:11,649 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:11] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:18:11,652 - web_dashboard - INFO - Client connected
+2025-04-01 14:18:11,665 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:11] "POST /socket.io/?EIO=4&transport=polling&t=PNooY--&sid=1cYkqSfDBkE0kOsWAAAM HTTP/1.1" 200 -
+2025-04-01 14:18:11,673 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:11] "GET /socket.io/?EIO=4&transport=polling&t=PNooY_3&sid=1cYkqSfDBkE0kOsWAAAM HTTP/1.1" 200 -
+2025-04-01 14:18:11,696 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:11] "GET /socket.io/?EIO=4&transport=polling&t=PNooY_j&sid=1cYkqSfDBkE0kOsWAAAM HTTP/1.1" 200 -
+2025-04-01 14:18:11,772 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:11] "GET /socket.io/?EIO=4&transport=polling&t=PNooZ0l&sid=1cYkqSfDBkE0kOsWAAAM HTTP/1.1" 200 -
+2025-04-01 14:18:33,684 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:18:33,690 - web_dashboard - INFO - [14:18:33] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:18:33,690 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-01 14:18:39,563 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:18:39,563 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:39] "GET /socket.io/?EIO=4&transport=websocket&sid=1cYkqSfDBkE0kOsWAAAM HTTP/1.1" 200 -
+2025-04-01 14:18:39,583 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:39] "GET / HTTP/1.1" 200 -
+2025-04-01 14:18:39,663 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:39] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 14:18:39,989 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:39] "GET /socket.io/?EIO=4&transport=polling&t=PNoofvi HTTP/1.1" 200 -
+2025-04-01 14:18:40,025 - web_dashboard - INFO - Client connected
+2025-04-01 14:18:40,029 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:40] "POST /socket.io/?EIO=4&transport=polling&t=PNoofw6&sid=-aH7p5noIUjUxAsiAAAO HTTP/1.1" 200 -
+2025-04-01 14:18:40,047 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:40] "GET /socket.io/?EIO=4&transport=polling&t=PNoofw8&sid=-aH7p5noIUjUxAsiAAAO HTTP/1.1" 200 -
+2025-04-01 14:18:40,074 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:18:40,075 - web_dashboard - INFO - [14:18:40] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:18:40,076 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:40] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:18:43,306 - web_dashboard - INFO - Client disconnected
+2025-04-01 14:18:43,307 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:18:43] "GET /socket.io/?EIO=4&transport=websocket&sid=-aH7p5noIUjUxAsiAAAO HTTP/1.1" 200 -
+2025-04-01 14:21:25,888 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:21:25] "GET / HTTP/1.1" 200 -
+2025-04-01 14:21:26,056 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:21:26,057 - web_dashboard - INFO - [14:21:26] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:21:26,057 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:21:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-01 14:21:38,193 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:21:38] "GET / HTTP/1.1" 200 -
+2025-04-01 14:21:38,312 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:21:38] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 14:21:39,015 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:21:39] "GET /socket.io/?EIO=4&transport=polling&t=PNopLcw HTTP/1.1" 200 -
+2025-04-01 14:21:39,289 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:21:39,289 - web_dashboard - INFO - [14:21:39] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:21:39,290 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:21:39] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:21:39,311 - web_dashboard - INFO - Client connected
+2025-04-01 14:21:39,312 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:21:39] "POST /socket.io/?EIO=4&transport=polling&t=PNopLhV&sid=YOJla6L6oROQ2FoTAAAQ HTTP/1.1" 200 -
+2025-04-01 14:21:39,327 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:21:39] "GET /socket.io/?EIO=4&transport=polling&t=PNopLho&sid=YOJla6L6oROQ2FoTAAAQ HTTP/1.1" 200 -
+2025-04-01 14:21:39,549 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:21:39] "GET /socket.io/?EIO=4&transport=polling&t=PNopLjr&sid=YOJla6L6oROQ2FoTAAAQ HTTP/1.1" 200 -
+2025-04-01 14:21:39,785 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:21:39] "GET /socket.io/?EIO=4&transport=polling&t=PNopLov&sid=YOJla6L6oROQ2FoTAAAQ HTTP/1.1" 200 -
+2025-04-01 14:22:09,282 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:22:09,283 - web_dashboard - INFO - [14:22:09] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:22:09,283 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:22:09] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:22:39,283 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:22:39,284 - web_dashboard - INFO - [14:22:39] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:22:39,284 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:22:39] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:23:09,288 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:23:09,289 - web_dashboard - INFO - [14:23:09] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:23:09,290 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:23:09] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:23:39,286 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:23:39,288 - web_dashboard - INFO - [14:23:39] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:23:39,290 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:23:39] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:24:09,285 - web_dashboard - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:24:09,286 - web_dashboard - INFO - [14:24:09] Not Found - ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-01 14:24:09,286 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:24:09] "[33mGET /api/health-status HTTP/1.1[0m" 404 -
+2025-04-01 14:24:20,231 - werkzeug - INFO -  * Detected change in '/Users/zackle/Documents/Apps/blackboxai-1743517864527/redditdmbots/web_dashboard/__init__.py', reloading
+2025-04-01 14:24:20,564 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:24:22,263 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:24:22,278 - werkzeug - INFO -  * Debugger PIN: 683-483-169
+2025-04-01 14:24:22,376 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:24:22] "GET /socket.io/?EIO=4&transport=polling&t=PNopzEC HTTP/1.1" 200 -
+2025-04-01 14:24:22,391 - web_dashboard - INFO - Client connected
+2025-04-01 14:24:22,395 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:24:22] "POST /socket.io/?EIO=4&transport=polling&t=PNopzVh&sid=iacbiJ0ckv_fBNEUAAAA HTTP/1.1" 200 -
+2025-04-01 14:24:22,395 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 14:24:22] "GET /socket.io/?EIO=4&transport=polling&t=PNopzVh.0&sid=iacbiJ0ckv_fBNEUAAAA HTTP/1.1" 200 -
+2025-04-01 14:24:38,862 - werkzeug - INFO -  * Detected change in '/Users/zackle/Documents/Apps/blackboxai-1743517864527/redditdmbots/web_dashboard/app.py', reloading
+2025-04-01 14:24:39,122 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:37:16,579 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-01 14:37:16,580 - werkzeug - INFO -  * Running on http://192.168.1.65:8000/ (Press CTRL+C to quit)
+2025-04-01 14:37:16,581 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 14:37:18,088 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 14:37:18,104 - werkzeug - INFO -  * Debugger PIN: 683-483-169
+2025-04-01 15:15:34,208 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-01 15:15:34,209 - werkzeug - INFO -  * Running on http://192.168.1.65:8000/ (Press CTRL+C to quit)
+2025-04-01 15:15:34,209 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 15:15:35,754 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 15:15:35,773 - werkzeug - INFO -  * Debugger PIN: 683-483-169
+2025-04-01 15:16:38,326 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 15:16:38] "GET / HTTP/1.1" 200 -
+2025-04-01 15:16:38,435 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 15:16:38] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 15:16:39,307 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 15:16:39] "GET /socket.io/?EIO=4&transport=polling&t=PNo_xM4 HTTP/1.1" 200 -
+2025-04-01 15:16:39,620 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 15:16:39] "POST /socket.io/?EIO=4&transport=polling&t=PNo_xQJ&sid=Wu13kzTm8E1oNzR5AAAA HTTP/1.1" 200 -
+2025-04-01 15:16:39,626 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 15:16:39] "GET /socket.io/?EIO=4&transport=polling&t=PNo_xQO&sid=Wu13kzTm8E1oNzR5AAAA HTTP/1.1" 200 -
+2025-04-01 15:21:17,754 - web_dashboard - INFO - Client disconnected
+2025-04-01 15:21:17,755 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 15:21:17] "GET / HTTP/1.1" 200 -
+2025-04-01 15:21:17,757 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 15:21:17] "GET /socket.io/?EIO=4&transport=websocket&sid=Wu13kzTm8E1oNzR5AAAA HTTP/1.1" 200 -
+2025-04-01 15:21:18,169 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 15:21:18] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 15:21:18,821 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 15:21:18] "GET /socket.io/?EIO=4&transport=polling&t=PNp0_bR HTTP/1.1" 200 -
+2025-04-01 15:21:18,930 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 15:21:18] "POST /socket.io/?EIO=4&transport=polling&t=PNp0_cw&sid=g9gHiwZOeuTvUieeAAAC HTTP/1.1" 200 -
+2025-04-01 15:21:18,952 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 15:21:18] "GET /socket.io/?EIO=4&transport=polling&t=PNp0_d0&sid=g9gHiwZOeuTvUieeAAAC HTTP/1.1" 200 -
+2025-04-01 15:26:07,056 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-01 15:26:07,057 - werkzeug - INFO -  * Running on http://192.168.1.65:8000/ (Press CTRL+C to quit)
+2025-04-01 15:26:07,057 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 15:26:08,374 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 15:26:08,390 - werkzeug - INFO -  * Debugger PIN: 683-483-169
+2025-04-01 15:26:12,415 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:26:12] "GET / HTTP/1.1" 200 -
+2025-04-01 15:26:12,714 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:26:12] "GET /static/main.js HTTP/1.1" 200 -
+2025-04-01 15:26:13,308 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:26:13] "GET /socket.io/?EIO=4&transport=polling&t=PNp27Ut HTTP/1.1" 200 -
+2025-04-01 15:26:13,322 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:26:13] "POST /socket.io/?EIO=4&transport=polling&t=PNp27V4&sid=HeU3c11otusFJsJbAAAA HTTP/1.1" 200 -
+2025-04-01 15:26:13,340 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:26:13] "GET /socket.io/?EIO=4&transport=polling&t=PNp27VB&sid=HeU3c11otusFJsJbAAAA HTTP/1.1" 200 -
+2025-04-01 15:26:13,627 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:26:13] "GET /socket.io/?EIO=4&transport=polling&t=PNp27Zv&sid=HeU3c11otusFJsJbAAAA HTTP/1.1" 200 -
+2025-04-01 15:26:13,641 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:26:13] "GET /socket.io/?EIO=4&transport=polling&t=PNp27a6&sid=HeU3c11otusFJsJbAAAA HTTP/1.1" 200 -
+2025-04-01 15:27:17,439 - werkzeug - INFO -  * Detected change in '/Users/zackle/Documents/Apps/blackboxai-1743517864527/redditdmbots/web_dashboard/__init__.py', reloading
+2025-04-01 15:27:17,708 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 15:27:19,938 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 15:27:19,951 - werkzeug - INFO -  * Debugger PIN: 683-483-169
+2025-04-01 15:27:20,057 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:27:20] "GET /socket.io/?EIO=4&transport=polling&t=PNp2NYt HTTP/1.1" 200 -
+2025-04-01 15:27:20,072 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:27:20] "POST /socket.io/?EIO=4&transport=polling&t=PNp2Nn-&sid=ZImlBpWzoJZvI43uAAAA HTTP/1.1" 200 -
+2025-04-01 15:27:20,090 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:27:20] "GET /socket.io/?EIO=4&transport=polling&t=PNp2Nn_&sid=ZImlBpWzoJZvI43uAAAA HTTP/1.1" 200 -
+2025-04-01 15:27:20,109 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:27:20] "GET /socket.io/?EIO=4&transport=polling&t=PNp2NoV&sid=ZImlBpWzoJZvI43uAAAA HTTP/1.1" 200 -
+2025-04-01 15:29:52,694 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-04-01 15:29:52,695 - werkzeug - INFO -  * Running on http://192.168.1.65:8000/ (Press CTRL+C to quit)
+2025-04-01 15:29:52,696 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 15:29:55,433 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 15:29:55,452 - werkzeug - INFO -  * Debugger PIN: 683-483-169
+2025-04-01 15:29:57,139 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:29:57] "GET /socket.io/?EIO=4&transport=polling&t=PNp2-7i HTTP/1.1" 200 -
+2025-04-01 15:29:57,356 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:29:57] "POST /socket.io/?EIO=4&transport=polling&t=PNp2-9w&sid=k3YahC54zPJwmVGMAAAA HTTP/1.1" 200 -
+2025-04-01 15:29:57,362 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:29:57] "GET /socket.io/?EIO=4&transport=polling&t=PNp2-9y&sid=k3YahC54zPJwmVGMAAAA HTTP/1.1" 200 -
+2025-04-01 15:29:57,526 - werkzeug - INFO - 192.168.1.65 - - [01/Apr/2025 15:29:57] "GET /socket.io/?EIO=4&transport=polling&t=PNp2-Dd&sid=k3YahC54zPJwmVGMAAAA HTTP/1.1" 200 -

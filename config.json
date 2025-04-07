@@ -1,0 +1,26 @@
+{
+    "openai_api_key": "YOUR_OPENAI_API_KEY",
+    "bots": [
+        {
+            "username": "Advanced_Leopard22",
+            "password": "Gonegirl1!",
+            "client_id": "YX5BpkZkGHBud1WvjqqI0A",
+            "client_secret": "YsknYb_REEJINgGbI0VBj4BCrMfBvg",
+            "user_agent": "EvilRedditBot/1.0",
+            "subreddit": "",
+            "protected_users": [],
+            "personality": {
+                "response_style": "friendly",
+                "writing_style": "casual",
+                "response_length": "short",
+                "traits": [],
+                "triggers": []
+            },
+            "actions": {
+                "upvote": true,
+                "comment": true,
+                "response_message": ""
+            }
+        }
+    ]
+} 
